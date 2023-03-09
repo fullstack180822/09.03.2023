@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MyListInteger {
 
-    ArrayList<Integer> items;
+    ArrayList<Integer> items = new ArrayList<>();
 
     public void addItem(Integer item) {
         items.add(item);

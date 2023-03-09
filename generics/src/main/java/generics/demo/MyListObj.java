@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MyListObj {
 
-    ArrayList<Object> items;
+    ArrayList<Object> items = new ArrayList<>();
 
     public void addItem(Object item) {
         items.add(item);

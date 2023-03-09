@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 public class MyGenericList<T extends Number> {
 
-    ArrayList<T> items;
+    ArrayList<T> items = new ArrayList<>();
 
     public void addItem(T item) {
+
         items.add(item);
     }
 

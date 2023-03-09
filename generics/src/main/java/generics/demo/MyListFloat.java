@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MyListFloat {
 
-    ArrayList<Float> items;
+    ArrayList<Float> items = new ArrayList<>();
 
     public void addItem(Float item) {
         items.add(item);
